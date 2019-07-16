@@ -1,0 +1,7 @@
+-mwux
+-i interrupt.ihx
+-b HOME 0x0000
+-b RSEG 0x0000
+-Y
+interrupt.rel
+-e
